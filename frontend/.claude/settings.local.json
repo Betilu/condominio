@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Yasir Arce/Documents/s2-condominio/smart-condominium/backend/reports/**)",
+      "Read(//c/Users/Yasir Arce/Documents/s2-condominio/smart-condominium/backend/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

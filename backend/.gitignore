@@ -1,0 +1,77 @@
+# === Python / Django ===
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+
+# Configuración local / secretos
+.env
+.env.*
+!.env.example
+*.local
+*settings_local.py
+*local_settings.py
+
+# Base de datos local (si usas SQLite en dev)
+db.sqlite3
+db.sqlite3-*
+
+# Archivos de ejecución / runtime
+*.log
+*.pot
+*.mo
+celerybeat-schedule*
+celerybeat.pid
+
+# Archivos de compilación y cachés de herramientas
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.pytype/
+.dmypy.json
+.pyre/
+
+# Django: archivos generados
+# (No ignores migrations si trabajas en equipo)
+# **NO ignores**: */migrations/*
+# Colecta de estáticos y media locales
+staticfiles/
+static/
+media/
+site_media/
+
+# Documentación / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDEs / SO
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+# PyCharm / IntelliJ
+.idea/
+*.iml
+# SO
+.DS_Store
+Thumbs.db
+
+# Docker (opcionales)
+docker-compose.override.yml
+.env.docker
+
+# Poetry / PDM / pyenv (opcionales)
+# .python-version  # <- Ignóralo si varios devs usan pyenv con versiones distintas
+.pdm-python

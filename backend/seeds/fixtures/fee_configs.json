@@ -1,0 +1,44 @@
+[
+  {
+    "model": "finance.feeconfig",
+    "pk": 1,
+    "fields": {
+      "name": "Cuota Ordinaria Departamento",
+      "fee_type": "ordinaria",
+      "periodicity": "mensual",
+      "base_amount": "85000.00",
+      "late_interest_rate": "2.50",
+      "active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "finance.feeconfig",
+    "pk": 2,
+    "fields": {
+      "name": "Cuota Ordinaria Cochera",
+      "fee_type": "ordinaria",
+      "periodicity": "mensual",
+      "base_amount": "25000.00",
+      "late_interest_rate": "2.50",
+      "active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "finance.feeconfig",
+    "pk": 3,
+    "fields": {
+      "name": "Multa por Ruidos Molestos",
+      "fee_type": "multa",
+      "periodicity": "unica",
+      "base_amount": "50000.00",
+      "late_interest_rate": "5.00",
+      "active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  }
+]

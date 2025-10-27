@@ -1,0 +1,10 @@
+# Django Configuration
+DEBUG=True
+DJANGO_SECRET_KEY=dev-secret-key-change-in-production
+
+# Database Configuration - PostgreSQL
+DB_NAME=condo_db
+DB_USER=condo_user
+DB_PASSWORD=condo_pass
+DB_HOST=localhost
+DB_PORT=5432
